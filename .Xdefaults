@@ -1,0 +1,45 @@
+!
+! author   : Xu Xiaodong <xxdlhy@gmail.com>
+! modified : 2012 May 13
+!
+
+!-- colorscheme & font --!
+# include ".Xdefaults.d/colors/solarized"
+# include ".Xdefaults.d/fonts/dina_wqy"
+
+!-- xft --!
+! hintstyle : hintnone | hintslight | hintmedium | hintfull
+! lcdfilter : lcdnone  | lcddefault | lcdlight   | lcdlegacy
+Xft.dpi       : 96
+Xft.antialias : true
+Xft.autohint  : false
+Xft.hinting   : true
+Xft.hintstyle : hintslight
+Xft.rgba      : rgb
+Xft.lcdfilter : lcdlight
+
+!-- cursor theme --!
+Xcursor.theme : Neutral_Plus
+Xcursor.size  : 10
+
+!-- urxvt base --!
+URxvt.title       : URxvt
+URxvt.geometry    : 80x25
+URxvt.loginShell  : true
+URxvt.preeditType : Root
+URxvt.saveLines   : 65535
+
+!-- urxvt look --!
+URxvt.cursorColor    : #af8700
+URxvt.transparent    : false
+URxvt.cursorBlink    : false
+URxvt.scrollBar      : false
+URxvt.externalBorder : 0
+URxvt.internalBorder : 0
+
+!-- urxvt extension --!
+URxvt.perl-lib          : /usr/lib/urxvt/perl/
+URxvt.perl-ext-common   : default,matcher
+URxvt.matcher.button    : 1
+URxvt.matcher.pattern.1 : \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+URxvt.urlLauncher       : firefox

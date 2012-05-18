@@ -1,0 +1,102 @@
+#!/usr/bin/env perl
+#
+# name     : dotman, a simple dotfile manager
+# author   : Xu Xiaodong <xxdlhy@gmail.com>
+# license  : GPL
+# created  : 2011 Apr 14
+# modified : 2012 May 19
+#
+
+use strict;
+use warnings;
+use feature qw(say);
+use FindBin qw($Bin);
+use File::Copy::Recursive qw(rmove);
+use Getopt::Long;
+
+# Command line options
+my ( $add, $setup, $help ) = (0) x 3;
+
+GetOptions(
+  'a|add'   => \$add,
+  's|setup' => \$setup,
+  'h|help'  => \$help,
+);
+
+# Dot files
+my @dots = qw(
+  bashrc
+  conkyrc
+  dico
+  fonts.conf
+  gtkrc-2.0
+  gtkrc.mine
+  irbrc
+  mplayer
+  pentadactyl
+  pentadactylrc
+  perltidyrc
+  rtorrent.rc
+  themes
+  tmux.conf
+  Xdefaults
+  Xdefaults.d
+  xinitrc
+  xmodmaprc
+  zathurarc
+  zprofile
+  zshrc
+);
+
+# Process options
+if ($add) {
+  for my $dot (@dots) {
+    my $orig_file = "$ENV{HOME}/.$dot";
+    add($orig_file) unless -l $orig_file;
+  }
+}
+
+if ($setup) {
+  for my $dot (@dots) {
+    my $new_file = ".$dot";
+    setup($new_file);
+  }
+}
+
+if ( $help || @ARGV == 0 ) {
+  say <<"USAGE";
+Usage: $0 -a [-s] [-h]
+
+Options:
+    -a, --add   add dot files
+    -s, --setup setup dot files
+    -h, --help  show help
+USAGE
+}
+
+# Add dot files
+sub add {
+  my ($file) = @_;
+  my $desc = $Bin;
+
+  local $File::Copy::Recursive::CPRFComp = 1;
+
+  say "Moving $file to $desc";
+  rmove( $file, $desc );
+}
+
+# Setup dot files
+sub setup {
+  my ($file) = @_;
+  my $path = "$Bin/$file";
+
+  chdir $ENV{HOME};
+
+  my $symlink_exist = eval { symlink $path, $file };
+
+  if ($symlink_exist) {
+    say "Symlinking $path to $file";
+  }
+}
+
+# vim: ai:et:ts=2:sw=2:tw=78:ft=perl

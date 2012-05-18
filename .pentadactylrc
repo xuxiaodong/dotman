@@ -1,0 +1,23 @@
+"
+" author:    Xu Xiaodong <xxdlhy@gmail.com>
+" modified:  2011 May 07
+"
+
+"-- look --"
+
+set guioptions=Cs
+set showtabline=never
+
+colorscheme zenburn
+
+"-- search --"
+
+set hlfind
+
+"-- editor --"
+
+set editor='urxvtc -e vim'
+
+"-- passthrough --"
+
+autocmd LocationChange www.google.com/reader/,mail.google.com :normal! <C-z>

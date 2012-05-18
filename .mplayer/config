@@ -1,0 +1,60 @@
+#
+# Author:    Xu Xiaodong <xxdlhy@gmail.com>
+# modified:  2012 May 14
+#
+
+#-- video --#
+
+vo=gl2:yuv=5,x11
+vf-pre=pp=ac
+vf=screenshot
+dr=yes
+#fs=yes
+
+#-- audio --#
+
+ao=alsa
+alang=chi
+
+#-- subtitle --#
+
+fontconfig=yes
+font='Adobe Heiti Std'
+subcp=enca:zh:utf8
+slang=chs,chi,cht,zh,eng,en
+ass=1
+embeddedfonts=1
+
+# Adjust matching fuzziness when searching for subtitles:
+# 0    exact match
+# 1    Load all subs containing movie name.
+# 2    Load all subs in the current directory.
+sub-fuzziness=1
+
+# Sets the autoscale mode. The mode can be:
+# 0    no autoscale
+# 1    proportional to movie height
+# 2    proportional to movie width
+# 3    proportional to movie diagonal (default)
+subfont-autoscale=2
+
+# Sets the subtitle text autoscale coefficient as percentage of the screen size.
+subfont-text-scale=6.5
+
+# Resample the font alphamap.
+# 0     plain white fonts
+# 0.75  very narrow black outline (default)
+# 1     narrow black outline
+# 10    bold black outline
+ffactor=0.75
+
+# Specifies which mode the OSD should start in.
+# 0    subtitles only
+# 1    volume + seek (default)
+# 2    volume + seek + timer + percentage
+# 3    volume + seek + timer + percentage + total time
+#osdlevel=3
+
+#-- other --#
+
+framedrop=yes

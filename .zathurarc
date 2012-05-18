@@ -1,0 +1,12 @@
+#
+# author:    Xu Xiaodong <xxdlhy@gmail.com>
+# modified:  2011 Apr 14
+#
+
+#-- hide inputbar --#
+
+set show_inputbar 0
+
+#-- bindkey --#
+
+map q quit

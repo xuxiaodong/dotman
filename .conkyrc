@@ -1,0 +1,22 @@
+#
+# author   : Xu Xiaodong <xxdlhy@gmail.com>
+# modified : 2012 May 13
+#
+
+#-- settings --#
+background no
+cpu_avg_samples 2
+out_to_console yes
+total_run_times 0
+update_interval 1.0
+
+#-- output --#
+TEXT
+^i(/home/xiaodong/.dico/cpu.xpm) ^fg(\#dca3a3)${cpu}% ${cpubar 10,5} \
+^i(/home/xiaodong/.dico/mem.xpm) ^fg(\#8faf9f)${memperc}% ${membar 10,5} \
+^i(/home/xiaodong/.dico/down.xpm) ^fg(\#dca3a3)${if_running wpa_supplicant}${downspeedf wlan0}${else}${downspeedf eth0}${endif}k \
+^i(/home/xiaodong/.dico/up.xpm) ^fg(\#8faf9f)${if_running wpa_supplicant}${upspeedf wlan0}${else}${upspeedf eth0}${endif}k \
+^i(/home/xiaodong/.dico/mail.xpm) ^fg(\#dca3a3)${texeci 300 ~/bin/gmailcount}m \
+^i(/home/xiaodong/.dico/wifi.xpm) ^fg(\#8faf9f)${if_running wpa_supplicant}${wireless_link_qual_perc wlan0}%${else}n/a${endif} \
+^i(/home/xiaodong/.dico/bat.xpm) ^fg(\#dca3a3)${battery_percent}% \
+^i(/home/xiaodong/.dico/time.xpm) ^fg(\#f0dfaf)${time %a, %b %d / %T} 

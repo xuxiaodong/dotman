@@ -1,0 +1,35 @@
+#
+# author:    Xu Xiaodong <xxdlhy@gmail.com>
+# modified:  2011 May 08
+#
+
+#-- use as filter --#
+
+-st
+-se
+
+#-- line length --#
+
+-l=78
+
+#-- indent --#
+
+-i=2
+-ci=2
+-vt=2
+-cti=0
+
+#-- tightness --#
+
+-pt=1
+-bt=1
+-sbt=1
+-bbt=0
+-nsfs
+-nolq
+
+#-- other --#
+
+-otr
+-fbl
+-wbb="% + - * / x != == >= <= =~ !~ < > | & = **= += *= &= <<= &&= -= /= |= >>= ||= //= .= %= ^= x="
