@@ -11,3 +11,9 @@ Installation
 Usage
 -----
 
+    Usage: dotman -a [-s] [-h]
+    
+    Options:
+        -a, --add   add dot files
+        -s, --setup setup dot files
+        -h, --help  show help
