@@ -33,19 +33,21 @@ my @dots = qw(
   gtkrc.mine
   irbrc
   mplayer
+  mutt
+  muttrc
   pentadactyl
   pentadactylrc
   perltidyrc
   rtorrent.rc
   themes
   tmux.conf
-  Xdefaults
-  Xdefaults.d
   xinitrc
   xmodmaprc
   zathurarc
   zprofile
   zshrc
+  Xdefaults
+  Xdefaults.d
 );
 
 # Process options
