@@ -1,6 +1,6 @@
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2012 May 19
+# modified : 2012 May 20
 #
 
 source ~/.gmailrc
@@ -13,21 +13,23 @@ set editor           = "vim"
 
 set from      = "xxdlhy@gmail.com"
 set realname  = "Xu Xiaodong"
+
 set folder    = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
-
-set imap_check_subscribed
+mailboxes     = "+INBOX"
+set postponed = "+[GMail]/Drafts"
 
 set hostname       = gmail.com
 set mail_check     = 120
 set timeout        = 300
 set imap_keepalive = 300
 
-set postponed = "+[GMail]/Drafts"
-set record    = "+[GMail]/Sent Mail"
-set move      = no
+unset record
+unset move
 
 set include
+set delete
+set quit
 
 set sort     = 'threads'
 set sort_aux = 'reverse-last-date-received'
