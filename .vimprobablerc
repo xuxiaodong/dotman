@@ -1,0 +1,17 @@
+:
+: author   : Xu Xiaodong <xxdlhy@gmail.com>
+: modified : 2012 May 22
+:
+
+set homepage=https://bbs.archlinux.org
+set defaultcoding=uft-8
+set defaultfont="Droid Sans Fallback"
+set sansfont="Droid Sans"
+set seriffont="Droid Serif"
+set monofont="Droid Sans Mono Slashed"
+set fontsize=12
+set monofontsize=10
+set inputbox=false
+set pagecache=true
+set shrinkimages=false
+set useragent="Vimprobable2 (X11; U; Unix; en-US) AppleWebKit/531.2+ Compatible (Safari)"
