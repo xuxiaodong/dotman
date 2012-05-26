@@ -15,3 +15,5 @@ set inputbox=false
 set pagecache=true
 set shrinkimages=false
 set useragent="Vimprobable2 (X11; U; Unix; en-US) AppleWebKit/531.2+ Compatible (Safari)"
+
+map <M1-h>=:set inputbox=false
