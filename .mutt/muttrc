@@ -1,0 +1,66 @@
+#
+# author   : Xu Xiaodong <xxdlhy@gmail.com>
+# modified : 2012 Jun 02
+#
+
+source ~/.gmailrc
+source ~/.mutt/colors/darkcourses
+
+set header_cache     = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+set signature        = ~/.mutt/signature
+set editor           = "vim"
+
+set from      = "xxdlhy@gmail.com"
+set realname  = "Xu Xiaodong"
+
+set folder    = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+mailboxes     = "+INBOX"
+set record    = "+[Gmail]/Sent Mail"
+set postponed = "+[Gmail]/Drafts"
+
+set ssl_starttls  = yes
+set ssl_force_tls = yes
+
+unset imap_passive
+unset move
+
+set imap_check_subscribed
+
+set hostname       = "gmail.com"
+set mail_check     = 120
+set timeout        = 300
+set imap_keepalive = 300
+set net_inc        = 5
+
+set include
+set delete
+set quit
+
+set sort     = "threads"
+set sort_aux = "reverse-last-date-received"
+set auto_tag = yes
+
+ignore "Authentication-Results:"
+ignore "DomainKey-Signature:"
+ignore "DKIM-Signature:"
+
+ignore *
+unignore Date From To Cc Subject User-Agent Message-ID
+
+hdr_order Date From To Cc Subject User-Agent Message-ID
+alternative_order text/plain text/html *
+auto_view text/html
+
+bind editor <Tab> complete-query
+bind editor ^T complete
+bind editor <space> noop 
+
+macro index,pager y "<save-message>=[Gmail]/All Mail<enter><enter>" "Archive"
+macro index,pager d "<save-message>=[Gmail]/Trash<enter><enter>" "Trash"
+macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"
+macro index ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
+macro index gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
+macro index gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
