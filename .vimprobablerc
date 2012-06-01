@@ -1,11 +1,13 @@
 :
 : author   : Xu Xiaodong <xxdlhy@gmail.com>
-: modified : 2012 May 22
+: modified : 2012 Jun 01
 :
 
 set homepage=https://bbs.archlinux.org
 set defaultcoding=uft-8
-set defaultfont="Droid Sans Fallback"
+set defaultfont="Droid Serif"
+set cursivefont="Droid Serif"
+set fantasyfont="Droid Serif"
 set sansfont="Droid Sans"
 set seriffont="Droid Serif"
 set monofont="Droid Sans Mono Slashed"

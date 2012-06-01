@@ -1,9 +1,9 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2012 May 10
+! modified : 2012 May 31
 !
 
-URxvt.font     : xft:terminus:size=8,xft:wenquanyi bitmap song:size=8
-URxvt.boldFont : xft:terminus:size=8:bold,xft:wenquanyi bitmap song:size=8:bold
+URxvt.font     : xft:terminus:size=10,xft:wenquanyi bitmap song:size=8
+URxvt.boldFont : xft:terminus:size=10:bold,xft:wenquanyi bitmap song:size=8:bold
 
 ! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

@@ -1,6 +1,6 @@
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2012 May 26
+# modified : 2012 May 27
 #
 
 #-- settings --#
@@ -12,7 +12,7 @@ update_interval 1.0
 
 #-- output --#
 TEXT
-^i(/home/xiaodong/.dico/music.xpm) ^fg(\#8faf9f)${texeci 60 ~/bin/nowplaying} \
+^i(/home/xiaodong/.dico/music.xpm) ^fg(\#8faf9f)${texeci 5 ~/bin/nowplaying} \
 ^i(/home/xiaodong/.dico/cpu.xpm) ^fg(\#dca3a3)${cpu}% ${cpubar 10,5} \
 ^i(/home/xiaodong/.dico/mem.xpm) ^fg(\#8faf9f)${memperc}% ${membar 10,5} \
 ^i(/home/xiaodong/.dico/down.xpm) ^fg(\#dca3a3)${if_running wpa_supplicant}${downspeedf wlan0}${else}${downspeedf eth0}${endif}k \
