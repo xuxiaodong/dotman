@@ -1,6 +1,6 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2012 Jun 01
+! modified : 2012 Jun 03
 !
 
 !-- colorscheme & font --!
@@ -14,7 +14,7 @@ Xft.dpi       : 96
 Xft.antialias : true
 Xft.autohint  : false
 Xft.hinting   : true
-Xft.hintstyle : hintslight
+Xft.hintstyle : hintfull
 Xft.rgba      : rgb
 Xft.lcdfilter : lcdlight
 
@@ -42,4 +42,4 @@ URxvt.perl-lib          : /usr/lib/urxvt/perl/
 URxvt.perl-ext-common   : default,matcher
 URxvt.matcher.button    : 1
 URxvt.matcher.pattern.1 : \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
-URxvt.urlLauncher       : firefox
+URxvt.urlLauncher       : dwb

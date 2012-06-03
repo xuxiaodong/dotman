@@ -5,10 +5,13 @@
 
 source ~/.gmailrc
 source ~/.mutt/colors/darkcourses
+source ~/.mutt/alias
 
 set header_cache     = ~/.mutt/cache/headers
 set message_cachedir = ~/.mutt/cache/bodies
 set certificate_file = ~/.mutt/certificates
+set alias_file       = ~/.mutt/alias
+set history_file     = ~/.mutt/history
 set signature        = ~/.mutt/signature
 set editor           = "vim"
 
@@ -24,16 +27,15 @@ set postponed = "+[Gmail]/Drafts"
 set ssl_starttls  = yes
 set ssl_force_tls = yes
 
-unset imap_passive
-unset move
-
-set imap_check_subscribed
-
 set hostname       = "gmail.com"
 set mail_check     = 120
 set timeout        = 300
 set imap_keepalive = 300
+set imap_idle      = yes
 set net_inc        = 5
+
+unset imap_passive
+unset move
 
 set include
 set delete
@@ -43,9 +45,7 @@ set sort     = "threads"
 set sort_aux = "reverse-last-date-received"
 set auto_tag = yes
 
-ignore "Authentication-Results:"
-ignore "DomainKey-Signature:"
-ignore "DKIM-Signature:"
+set index_format = "%4C %Z %{%b %d} %-20.20L (%4c) %s"
 
 ignore *
 unignore Date From To Cc Subject User-Agent Message-ID
@@ -53,6 +53,9 @@ unignore Date From To Cc Subject User-Agent Message-ID
 hdr_order Date From To Cc Subject User-Agent Message-ID
 alternative_order text/plain text/html *
 auto_view text/html
+
+bind index gg first-entry
+bind index G last-entry
 
 bind editor <Tab> complete-query
 bind editor ^T complete

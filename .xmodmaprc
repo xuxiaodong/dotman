@@ -1,13 +1,13 @@
 !
 ! author:    Xu Xiaodong <xxdlhy@gmail.com>
-! modified:  2012 May 13
+! modified:  2012 Jun 03
 !
 
-!-- swap Caps_Lock and Control_L¬--!
+!-- swap Caps_Lock and Control_L --!
 
 clear Lock
 remove Control = Control_L
-keycode 0x37 = Caps_Lock
-keycode 0x66 = Control_L
+keycode 37 = Caps_Lock
+keycode 66 = Control_L
 add Lock = Caps_Lock
 add Control = Control_L

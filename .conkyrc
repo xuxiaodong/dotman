@@ -1,6 +1,6 @@
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2012 May 27
+# modified : 2012 Jun 03
 #
 
 #-- settings --#
@@ -20,4 +20,5 @@ TEXT
 ^i(/home/xiaodong/.dico/mail.xpm) ^fg(\#dca3a3)${texeci 300 ~/bin/gmailcount}m \
 ^i(/home/xiaodong/.dico/wifi.xpm) ^fg(\#8faf9f)${if_running wpa_supplicant}${wireless_link_qual_perc wlan0}%${else}n/a${endif} \
 ^i(/home/xiaodong/.dico/bat.xpm) ^fg(\#dca3a3)${battery_percent}% \
+^i(/home/xiaodong/.dico/vol.xpm) ^fg(\#dca3a3)${texeci 60 ~/bin/volume} \
 ^i(/home/xiaodong/.dico/time.xpm) ^fg(\#f0dfaf)${time %a, %b %d / %T} 
