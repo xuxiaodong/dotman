@@ -1,9 +1,0 @@
-!
-! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2012 Apr 24
-!
-
-URxvt.font     : xft:inconsolata:size=10,xft:droid sans fallback:size=10
-URxvt.boldFont : xft:inconsolata:size=10:bold,xft:droid sans fallback:size=10:bold
-
-! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

@@ -1,6 +1,6 @@
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2012 Jun 02
+# modified : 2012 Jun 11
 #
 
 source ~/.gmailrc
@@ -38,6 +38,7 @@ unset imap_passive
 unset move
 
 set include
+set pager_stop
 set delete
 set quit
 

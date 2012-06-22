@@ -1,14 +1,15 @@
 #
 # Author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 May 14
+# modified:  2012 Jun 16
 #
 
 #-- video --#
 
 vo=gl2:yuv=5,x11
+lavdopts=threads=4
 vf-pre=pp=ac
-vf=screenshot
 dr=yes
+#vf=screenshot
 #fs=yes
 
 #-- audio --#

@@ -1,8 +1,8 @@
 #BlackWhite By lyrae | thrynk.deviantart.com
 
 #include "panel.rc"
-#include "menubar.rc"
-include "menubar-black.rc"
+include "menubar.rc"
+#include "menubar-black.rc"
 
 
 gtk-icon-sizes = "panel-menu=14,14:panel=14,14:gtk-button=14,14:gtk-small-toolbar=14,14:gtk-large-toolbar=14,14"

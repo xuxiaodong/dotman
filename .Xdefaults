@@ -1,11 +1,11 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2012 Jun 03
+! modified : 2012 Jun 22
 !
 
 !-- colorscheme & font --!
 # include ".Xdefaults.d/colors/solarized"
-# include ".Xdefaults.d/fonts/sq_wqy"
+# include ".Xdefaults.d/fonts/envycoder_droid"
 
 !-- xft --!
 ! hintstyle : hintnone | hintslight | hintmedium | hintfull
@@ -14,7 +14,7 @@ Xft.dpi       : 96
 Xft.antialias : true
 Xft.autohint  : false
 Xft.hinting   : true
-Xft.hintstyle : hintfull
+Xft.hintstyle : hintslight
 Xft.rgba      : rgb
 Xft.lcdfilter : lcdlight
 

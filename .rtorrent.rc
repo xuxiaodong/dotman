@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 May 09
+# modified:  2012 Jun 14
 #
 
 #-- base --#
@@ -10,7 +10,7 @@ max_peers     = 100
 download_rate = 0
 upload_rate   = 0
 directory     = ~/tmp
-session       = ~/tmp
+session       = ~/tmp/session
 
 #-- schedule --#
 
