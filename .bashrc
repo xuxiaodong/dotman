@@ -1,10 +1,9 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2011 Apr 19
+# modified:  2012 Jun 23
 #
 
-#-- prompt --#
-
+# prompt
 [ -z "$PS1" ] && return
 
 liBlack="\[\033[0;30m\]"
@@ -24,18 +23,16 @@ boCyan="\[\033[1;36m\]"
 liWhite="\[\033[0;37m\]"
 boWhite="\[\033[1;37m\]"
 
-PS1="\n$boGreen\u$liWhite at $boBlue\h$liWhite in $boRed\w $liYellow{\[\`let exitstatus=\$? ; if [[ \${exitstatus} != 0 ]] ; then echo \"\${exitstatus}\" ; else echo "0" ; fi\`\]} \n% $liWhite"
+PS1="\n$boGreen\u$liWhite at $boBlue\h$liWhite in $boRed\w $liYellow{\[\`let exitstatus=\$? ; if [[ \${exitstatus} != 0 ]] ; then echo \"\${exitstatus}\" ; else echo "0" ; fi\`\]} \n$liRed» $liWhite"
 
-#-- alias --#
-
+# alias
 if [ "$TERM" != "dumb" ]; then
     alias ls='ls -F --color=auto'
 fi
 
 alias ll='ls -lsh'
 
-#-- completion --#
-
+# completion
 if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi

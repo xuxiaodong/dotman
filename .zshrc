@@ -1,10 +1,10 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jun 22
+# modified:  2012 Jun 23
 #
 
 export ZSH=$HOME/code/oh-my-zsh
-export ZSH_THEME="prose"
+export ZSH_THEME="codefun"
 export DISABLE_AUTO_TITLE="true"
 export DISABLE_AUTO_UPDATE="true"
 
