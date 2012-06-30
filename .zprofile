@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com> 
-# modified:  2011 Apr 17
+# modified:  2012 Jun 30
 #
 
 #-- source --#
