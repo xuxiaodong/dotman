@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2012 Jun 10
+# modified : 2012 Jul 07
 #
 
 #-- powersave --#
@@ -14,15 +14,15 @@ export GTK_IM_MODULE=xim
 fcitx &
 
 #-- app --#
-xmodmap ~/.xmodmaprc &    # swap Caps_Lock and Control_L
-compton -cGb              # add fancy shadows
-autocutsel &              # sync copy/paste buffers
-unclutter -idle 5 &       # hide mouse cursor
-syndaemon -t -k -i 2 -d & # disable trackpad while typing
-urxvtd -q -f -o           # urxvt daemon
-(sleep 2 && bar) &        # status bar
-eval $(cat ~/.fehbg)      # set wallpaper
-urxvtc -e tmux att &      # start tmux
+xmodmap ~/.xmodmaprc &     # swap Caps_Lock and Control_L
+compton -cGb               # add fancy shadows
+autocutsel &               # sync copy/paste buffers
+unclutter -idle 5 &        # hide mouse cursor
+syndaemon -t -k -i 2 -d &  # disable trackpad while typing
+urxvtd -q -f -o            # urxvt daemon
+(sleep 2 && bar) &         # status bar
+eval $(cat ~/.fehbg)       # set wallpaper
+urxvtc -e sh -c "tmuxen" & # start tmux
 
 #-- wm --#
 exec dwm

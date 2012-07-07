@@ -1,11 +1,11 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2012 Jun 30
+! modified : 2012 Jul 07
 !
 
 !-- colorscheme & font --!
-# include ".Xdefaults.d/colors/lich"
-# include ".Xdefaults.d/fonts/envycoder_droid"
+#include ".Xdefaults.d/colors/lich"
+#include ".Xdefaults.d/fonts/envycoder_droid"
 
 !-- xft --!
 ! hintstyle : hintnone | hintslight | hintmedium | hintfull
@@ -30,7 +30,6 @@ URxvt.preeditType : Root
 URxvt.saveLines   : 65535
 
 !-- urxvt look --!
-!URxvt.cursorColor    : #af8700
 URxvt.cursorColor    : #b89f63
 URxvt.transparent    : false
 URxvt.cursorBlink    : false

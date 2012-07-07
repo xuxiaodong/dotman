@@ -1,6 +1,6 @@
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2012 Jun 11
+# modified : 2012 Jul 07
 #
 
 source ~/.gmailrc
@@ -21,7 +21,7 @@ set realname  = "Xu Xiaodong"
 set folder    = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
 mailboxes     = "+INBOX"
-set record    = "+[Gmail]/Sent Mail"
+set record    = ""
 set postponed = "+[Gmail]/Drafts"
 
 set ssl_starttls  = yes
@@ -49,9 +49,9 @@ set auto_tag = yes
 set index_format = "%4C %Z %{%b %d} %-20.20L (%4c) %s"
 
 ignore *
-unignore Date From To Cc Subject User-Agent Message-ID
+unignore Date From To Cc Subject User-Agent
 
-hdr_order Date From To Cc Subject User-Agent Message-ID
+hdr_order Date From To Cc Subject User-Agent
 alternative_order text/plain text/html *
 auto_view text/html
 

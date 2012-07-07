@@ -1,6 +1,6 @@
 #
 # author:   Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jun 24
+# modified:  2012 Jul 07
 #
 
 #-- xft --#
@@ -16,9 +16,9 @@ include "/home/xiaodong/.themes/Dyne/gtk-2.0/gtkrc"
 gtk-icon-theme-name = "gnome-dust"
 
 #-- font --#
-gtk-font-name = "Droid Sans 8"
+gtk-font-name = "Aller 8"
 style "user-font" {
-    font_name = "Droid Sans 8"
+    font_name = "Aller 8"
 }
 widget_class "*" style "user-font"
 
