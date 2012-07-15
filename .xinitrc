@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2012 Jul 07
+# modified : 2012 Jul 15
 #
 
 #-- powersave --#
@@ -15,7 +15,7 @@ fcitx &
 
 #-- app --#
 xmodmap ~/.xmodmaprc &     # swap Caps_Lock and Control_L
-compton -cGb               # add fancy shadows
+compton -o 0.2 -l 1 -cGb   # add fancy shadows
 autocutsel &               # sync copy/paste buffers
 unclutter -idle 5 &        # hide mouse cursor
 syndaemon -t -k -i 2 -d &  # disable trackpad while typing

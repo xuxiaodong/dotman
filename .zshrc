@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jul 04
+# modified:  2012 Jul 11
 #
 
 export ZSH=$HOME/code/oh-my-zsh

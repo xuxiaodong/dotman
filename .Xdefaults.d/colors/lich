@@ -4,6 +4,7 @@
 
 *.background : #222222
 *.foreground : #eeeeee
+*.cursorColor: #b89f63
 *color0      : #222222
 *color1      : #8E5C4E
 *color2      : #6C7E55
