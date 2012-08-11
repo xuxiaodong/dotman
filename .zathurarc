@@ -1,11 +1,11 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jun 17
+# modified:  2012 Aug 04
 #
 
 # hide *bar
 set show_inputbar 0
-set show_statusbar 0
+#set show_statusbar 0
 
 # bindkey
 map q quit

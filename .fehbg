@@ -1,1 +1,1 @@
-feh --bg-tile '/home/xiaodong/pic/pinstriped_suit.png' 
+feh --no-xinerama --bg-scale '/home/xiaodong/pic/cat.jpg' 

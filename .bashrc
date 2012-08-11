@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jun 23
+# modified:  2012 Jul 30
 #
 
 # prompt
@@ -23,7 +23,7 @@ boCyan="\[\033[1;36m\]"
 liWhite="\[\033[0;37m\]"
 boWhite="\[\033[1;37m\]"
 
-PS1="\n$boGreen\u$liWhite at $boBlue\h$liWhite in $boRed\w $liYellow{\[\`let exitstatus=\$? ; if [[ \${exitstatus} != 0 ]] ; then echo \"\${exitstatus}\" ; else echo "0" ; fi\`\]} \n$liRed∞ $liWhite"
+PS1="\n$boGreen┌─ \u$liWhite at $boBlue\h$liWhite in $boRed\w $liYellow{\[\`let exitstatus=\$? ; if [[ \${exitstatus} != 0 ]] ; then echo \"\${exitstatus}\" ; else echo "0" ; fi\`\]} \n$boGreen└─$liRed ∞ $liWhite"
 
 # alias
 if [ "$TERM" != "dumb" ]; then
@@ -31,6 +31,7 @@ if [ "$TERM" != "dumb" ]; then
 fi
 
 alias ll='ls -lsh'
+alias sd='shutdown -h now'
 
 # completion
 if [ -f /etc/bash_completion ]; then

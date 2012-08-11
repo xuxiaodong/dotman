@@ -1,12 +1,14 @@
 "
 " author:    Xu Xiaodong <xxdlhy@gmail.com>
-" modified:  2012 Jul 15
+" modified:  2012 Aug 02
 "
 
 "-- look --"
 
 set guioptions=Cs
 set showtabline=never
+set showstatuslinks=command
+set hintkeys=asdfg;lkjh
 
 colorscheme zenburn
 
