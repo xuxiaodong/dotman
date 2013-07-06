@@ -1,15 +1,15 @@
 #
 # Author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Jun 16
+# modified:  2012 Nov 25
 #
 
 #-- video --#
 
 vo=gl2:yuv=5,x11
 lavdopts=threads=4
-vf-pre=pp=ac
+#vf-pre=pp=ac
 dr=yes
-#vf=screenshot
+vf=screenshot
 #fs=yes
 
 #-- audio --#
@@ -19,7 +19,7 @@ alang=chi
 
 #-- subtitle --#
 
-fontconfig=yes
+#fontconfig=yes
 font='Adobe Heiti Std'
 subcp=enca:zh:utf8
 slang=chs,chi,cht,zh,eng,en

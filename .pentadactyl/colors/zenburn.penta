@@ -1,6 +1,7 @@
 " FileName: zenburn.penta
 " Author: zouyang
 " Last Updated: Wed 06 Apr 2011 02:30:19 PM CST
+
 hi Cmd                                          background-color:#3F3F3F;
 hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important; font-size:9pt;
 
@@ -64,4 +65,5 @@ hi -a BufTab                                    padding:0 2px;
 
 " specific
 hi -a NonText                                   color:#5b605e; font-weight:bold;
+
 " vim: set ft=pentadactyl:ts=4:sw=4:tw=0:

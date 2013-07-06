@@ -1,9 +1,9 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2012 Jul 20
+! modified : 2012 Dec 25
 !
 
-URxvt.font     : xft:ubuntu mono for powerline:size=10,xft:droid sans fallback:size=10
-URxvt.boldFont : xft:ubuntu mono for powerline:size=10,xft:droid sans fallback:size=10
+URxvt.font     : xft:ubuntu mono for powerline:size=11,xft:droid sans fallback:size=11
+URxvt.boldFont : xft:ubuntu mono for powerline:size=11,xft:droid sans fallback:size=11
 
 ! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2011 May 08
+# modified:  2013 Jun 16
 #
 
 #-- use as filter --#
@@ -14,9 +14,9 @@
 
 #-- indent --#
 
--i=2
--ci=2
--vt=2
+-i=4
+-ci=4
+-vt=4
 -cti=0
 
 #-- tightness --#

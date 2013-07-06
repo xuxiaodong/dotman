@@ -1,11 +1,11 @@
 "
 " author:    Xu Xiaodong <xxdlhy@gmail.com>
-" modified:  2012 Aug 02
+" modified:  2013 Jun 12
 "
 
 "-- look --"
 
-set guioptions=Cs
+set guioptions=Csr
 set showtabline=never
 set showstatuslinks=command
 set hintkeys=asdfg;lkjh
