@@ -1,9 +1,9 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2013 Jul 06
+! modified : 2013 Jul 20
 !
 
-URxvt.font     : xft:dejavu sans mono for powerline:size=10,xft:droid sans fallback:size=10
-URxvt.boldFont : xft:dejavu sans mono for powerline:size=10:bold,xft:droid sans fallback:size=10:bold
+URxvt.font     : xft:dejavu sans mono for powerline:size=10,xft:wenquanyi micro hei:size=10
+URxvt.boldFont : xft:dejavu sans mono for powerline:size=10:bold,xft:wenquanyi micro hei:size=10:bold
 
 ! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults
