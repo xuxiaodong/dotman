@@ -1,11 +1,11 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2013 Jul 06
+! modified : 2013 Dec 01
 !
 
 !-- colorscheme & font --!
 #include ".Xdefaults.d/colors/hybrid"
-#include ".Xdefaults.d/fonts/dejavu_droid"
+#include ".Xdefaults.d/fonts/cosmic_droid"
 
 !-- xft --!
 ! hintstyle : hintnone | hintslight | hintmedium | hintfull

@@ -1,6 +1,6 @@
 "
 " author:    Xu Xiaodong <xxdlhy@gmail.com>
-" modified:  2013 Jun 12
+" modified:  2013 Nov 30
 "
 
 "-- look --"
@@ -25,7 +25,7 @@ set editor='urxvtc -e vim'
 autocmd LocationChange www.google.com/reader/,mail.google.com :normal! <C-z>
 
 "-- style --"
-style -name custom http://linuxtoy.org/* <<EOM
+style -name custom https://linuxtoy.org/* <<EOM
 body {
     background: #ffffff !important;
 }

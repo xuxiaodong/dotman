@@ -1,0 +1,9 @@
+!
+! author   : Xu Xiaodong <xxdlhy@gmail.com>
+! modified : 2013 Dec 01
+!
+
+URxvt.font     : xft:cosmicsansneuemono:size=10,xft:wenquanyi micro hei:size=10
+URxvt.boldFont : xft:cosmicsansneuemono:size=109:bold,xft:wenquanyi micro hei:size=10:bold
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults
