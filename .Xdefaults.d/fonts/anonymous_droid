@@ -1,0 +1,9 @@
+!
+! author   : Xu Xiaodong <xxdlhy@gmail.com>
+! modified : 2015 Apr 20
+!
+
+URxvt.font     : xft:anonymice powerline:size=10,xft:wenquanyi micro hei:size=10
+URxvt.boldFont : xft:anonymice powerline:size=10:bold,xft:wenquanyi micro hei:size=10:bold
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

@@ -1,6 +1,6 @@
 #
 # author:    Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2012 Aug 12
+# modified:  2015 May 09
 #
 
 # prompt
@@ -23,7 +23,8 @@ boCyan="\[\033[1;36m\]"
 liWhite="\[\033[0;37m\]"
 boWhite="\[\033[1;37m\]"
 
-PS1="\n$boGreen┌─ \u$liWhite at $boBlue\h$liWhite in $boRed\w $liYellow{\[\`let exitstatus=\$? ; if [[ \${exitstatus} != 0 ]] ; then echo \"\${exitstatus}\" ; else echo "0" ; fi\`\]} \n$boGreen└╼ $liWhite"
+#PS1="\n$boGreen┌─ \u$liWhite at $boBlue\h$liWhite in $boRed\w $liYellow{\[\`let exitstatus=\$? ; if [[ \${exitstatus} != 0 ]] ; then echo \"\${exitstatus}\" ; else echo "0" ; fi\`\]} \n$boGreen└╼ $liWhite"
+PS1="\n$boYellow──── $liWhite"
 
 # alias
 if [ "$TERM" != "dumb" ]; then
