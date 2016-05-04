@@ -1,0 +1,9 @@
+!
+! author   : Xu Xiaodong <xxdlhy@gmail.com>
+! modified : 2015 Aug 03
+!
+
+URxvt.font     : xft:ubuntu mono derivative powerline:size=10,xft:wenquanyi micro hei:size=10
+URxvt.boldFont : xft:ubuntu mono derivative powerline:size=10:bold,xft:wenquanyi micro hei:size=10:bold
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults
