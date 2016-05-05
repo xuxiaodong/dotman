@@ -1,6 +1,6 @@
 
 # author:   Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2015 May 09
+# modified:  2016 May 05
 #
 
 #-- xft --#
@@ -16,9 +16,9 @@ include "/home/xiaodong/.themes/BlackWhite/gtk-2.0/gtkrc"
 gtk-icon-theme-name = "gnome-dust"
 
 #-- font --#
-gtk-font-name = "Aller 8"
+gtk-font-name = "Noto Sans 14"
 style "user-font" {
-    font_name = "Aller 8"
+    font_name = "Noto Sans 14"
 }
 widget_class "*" style "user-font"
 

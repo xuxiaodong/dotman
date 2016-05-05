@@ -1,16 +1,17 @@
 "
 " author:    Xu Xiaodong <xxdlhy@gmail.com>
-" modified:  2013 Nov 30
+" modified:  2016 May 05
 "
 
 "-- look --"
 
-set guioptions=Csr
-set showtabline=never
+set guioptions=Cns
+"set showtabline=never
 set showstatuslinks=command
 set hintkeys=asdfg;lkjh
 
-colorscheme zenburn
+colorscheme solarized-dark
+highlight Hint font-family: input; font-size: 16px; background-color: white; padding: 2px;
 
 "-- search --"
 
@@ -22,11 +23,4 @@ set editor='urxvtc -e vim'
 
 "-- passthrough --"
 
-autocmd LocationChange www.google.com/reader/,mail.google.com :normal! <C-z>
-
-"-- style --"
-style -name custom https://linuxtoy.org/* <<EOM
-body {
-    background: #ffffff !important;
-}
-EOM
+autocmd LocationChange mail.google.com :normal! <C-z>

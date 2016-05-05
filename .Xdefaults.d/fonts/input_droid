@@ -1,11 +1,11 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2016 Jan 15
+! modified : 2016 May 05
 !
 
-URxvt.font           : xft:input:size=8,xft:wenquanyi micro hei:size=10
-URxvt.boldFont       : xft:input:size=8:bold,xft:wenquanyi micro hei:size=10:bold
-URxvt.italicFont     : xft:input:size=8:italic,xft:wenquanyi micro hei:size=10:italic
-URxvt.bolditalicFont : xft:input:size=8:bolditalic,xft:wenquanyi micro hei:size=10:bolditalic
+URxvt.font           : xft:input:size=14,xft:noto sans cjk sc:size=14
+URxvt.boldFont       : xft:input:size=14:bold,xft:noto sans cjk sc:size=14:bold
+URxvt.italicFont     : xft:input:size=14:italic,xft:noto sans cjk sc:size=14:italic
+URxvt.bolditalicFont : xft:input:size=14:bolditalic,xft:noto sans cjk sc:size=14:bolditalic
 
 ! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults
