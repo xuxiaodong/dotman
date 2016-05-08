@@ -1,11 +1,11 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2016 May 05
+! modified : 2016 May 08
 !
 
-URxvt.font           : xft:input:size=14,xft:noto sans cjk sc:size=14
-URxvt.boldFont       : xft:input:size=14:bold,xft:noto sans cjk sc:size=14:bold
-URxvt.italicFont     : xft:input:size=14:italic,xft:noto sans cjk sc:size=14:italic
-URxvt.bolditalicFont : xft:input:size=14:bolditalic,xft:noto sans cjk sc:size=14:bolditalic
+URxvt.font           : xft:input:size=13,xft:noto sans cjk sc:size=13
+URxvt.boldFont       : xft:input:size=13:bold,xft:noto sans cjk sc:size=13:bold
+URxvt.italicFont     : xft:input:size=13:italic,xft:noto sans cjk sc:size=13:italic
+URxvt.bolditalicFont : xft:input:size=13:bolditalic,xft:noto sans cjk sc:size=13:bolditalic
 
 ! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

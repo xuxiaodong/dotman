@@ -1,12 +1,12 @@
 #!/bin/sh
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2016 May 05
+# modified : 2016 May 08
 #
 
 #-- font --#
-#xset +fp /usr/share/fonts/ohsnap
-#xset fp rehash
+xset +fp /usr/share/fonts/ohsnap
+xset fp rehash
 
 #-- powersave --#
 xset +dpms
@@ -19,14 +19,13 @@ export QT_IM_MODULE=xim
 fcitx &
 
 #-- app --#
-xmodmap ~/.xmodmaprc &               # swap Caps_Lock and Control_L
-compton -cGb                         # add fancy shadows
-unclutter -idle 5 &                  # hide mouse cursor
-syndaemon -t -k -i 2 -d &            # disable trackpad while typing
-urxvtd -q -f -o                      # urxvt daemon
-hsetroot -fill ~/picture/black.jpg & # set wallpaper
-#btsync --config ~/.btsyncrc          # start btsync
-urxvtc -e sh -c "tmuxen" &           # start tmux
+xmodmap ~/.xmodmaprc &                      # swap Caps_Lock and Control_L
+compton -cGb                                # add fancy shadows
+unclutter -idle 5 &                         # hide mouse cursor
+syndaemon -t -k -i 2 -d &                   # disable trackpad while typing
+urxvtd -q -f -o                             # urxvt daemon
+hsetroot -fill ~/picture/black.jpg &        # set wallpaper
+urxvtc -geometry 134x40 -e sh -c "tmuxen" & # start tmux
 
 #-- wm --#
 exec 2bwm
