@@ -1,0 +1,11 @@
+!
+! author   : Xu Xiaodong <xxdlhy@gmail.com>
+! modified : 2016 May 14
+!
+
+URxvt.font           : xft:source code pro:size=12,xft:noto sans cjk sc:size=13
+URxvt.boldFont       : xft:source code pro:size=12:bold,xft:noto sans cjk sc:size=13:bold
+URxvt.italicFont     : xft:source code pro:size=12:italic,xft:noto sans cjk sc:size=13:italic
+URxvt.bolditalicFont : xft:source code pro:size=12:bolditalic,xft:noto sans cjk sc:size=13:bolditalic
+
+! vim: ai:et:ts=2:sw=2:tw=78:ft=xdefaults

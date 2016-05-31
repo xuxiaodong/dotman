@@ -1,11 +1,11 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2016 May 07
+! modified : 2016 May 13
 !
 
 !-- colorscheme & font --!
-#include ".Xdefaults.d/colors/lich"
-#include ".Xdefaults.d/fonts/input_droid"
+#include ".Xdefaults.d/colors/smokey"
+#include ".Xdefaults.d/fonts/sourcecodepro_noto"
 
 !-- xft --!
 ! hintstyle : hintnone | hintslight | hintmedium | hintfull
@@ -24,7 +24,7 @@ Xcursor.size  : 10
 
 !-- urxvt base --!
 URxvt.title       : URxvt
-URxvt.geometry    : 65x20
+URxvt.geometry    : 64x16
 URxvt.loginShell  : true
 URxvt.preeditType : Root
 URxvt.saveLines   : 65535

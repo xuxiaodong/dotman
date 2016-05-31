@@ -1,11 +1,11 @@
 #!/bin/sh
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2016 May 08
+# modified : 2016 May 25
 #
 
 #-- font --#
-xset +fp /usr/share/fonts/ohsnap
+xset +fp /usr/share/fonts/local
 xset fp rehash
 
 #-- powersave --#
@@ -19,13 +19,14 @@ export QT_IM_MODULE=xim
 fcitx &
 
 #-- app --#
-xmodmap ~/.xmodmaprc &                      # swap Caps_Lock and Control_L
-compton -cGb                                # add fancy shadows
-unclutter -idle 5 &                         # hide mouse cursor
-syndaemon -t -k -i 2 -d &                   # disable trackpad while typing
-urxvtd -q -f -o                             # urxvt daemon
-hsetroot -fill ~/picture/black.jpg &        # set wallpaper
-urxvtc -geometry 134x40 -e sh -c "tmuxen" & # start tmux
+xmodmap ~/.xmodmaprc &                        # swap Caps_Lock and Control_L
+compton -cGb                                  # add fancy shadows
+unclutter -idle 5 &                           # hide mouse cursor
+syndaemon -t -k -i 2 -d &                     # disable trackpad while typing
+urxvtd -q -f -o                               # urxvt daemon
+hsetroot -fill ~/picture/soft-and-clean.png & # set wallpaper
+urxvtc -geometry 134x36 -e sh -c "tmuxen" &   # start tmux
+yabar &                                       # start bar
 
 #-- wm --#
 exec 2bwm

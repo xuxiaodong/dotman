@@ -1,17 +1,16 @@
 "
 " author:    Xu Xiaodong <xxdlhy@gmail.com>
-" modified:  2016 May 05
+" modified:  2016 May 13
 "
 
 "-- look --"
 
 set guioptions=Cns
-"set showtabline=never
 set showstatuslinks=command
 set hintkeys=asdfg;lkjh
 
 colorscheme solarized-dark
-highlight Hint font-family: input; font-size: 16px; background-color: white; padding: 2px;
+highlight Hint font-family: 'source code pro'; font-size: 14px; background-color: white; padding: 2px;
 
 "-- search --"
 
@@ -23,4 +22,4 @@ set editor='urxvtc -e vim'
 
 "-- passthrough --"
 
-autocmd LocationChange mail.google.com :normal! <C-z>
+autocmd LocationChange mail.google.com|feedly.com :normal! <C-z>
