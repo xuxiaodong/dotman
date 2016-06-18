@@ -1,0 +1,6 @@
+super + e
+    xdotool mousemove 400 250
+super + d
+    xdotool mousemove 1400 850
+super + z
+    xdotool mousemove 400 850

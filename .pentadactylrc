@@ -1,6 +1,6 @@
 "
 " author:    Xu Xiaodong <xxdlhy@gmail.com>
-" modified:  2016 May 13
+" modified:  2016 Jun 10
 "
 
 "-- look --"
@@ -10,7 +10,7 @@ set showstatuslinks=command
 set hintkeys=asdfg;lkjh
 
 colorscheme solarized-dark
-highlight Hint font-family: 'source code pro'; font-size: 14px; background-color: white; padding: 2px;
+highlight Hint font-family: 'source code pro'; font-size: 13px; background-color: white; padding: 2px;
 
 "-- search --"
 

@@ -1,6 +1,6 @@
 #
 # author:   Xu Xiaodong <xxdlhy@gmail.com>
-# modified:  2016 May 12
+# modified: 2016 Jun 18
 #
 
 #-- xft --#
@@ -13,7 +13,7 @@ gtk-xft-rgba      = rgb
 include "/home/xiaodong/.themes/BlackWhite/gtk-2.0/gtkrc"
 
 #-- icon --#
-gtk-icon-theme-name = "gnome-dust"
+gtk-icon-theme-name = "Arc"
 
 #-- font --#
 gtk-font-name = "Aller 12"
