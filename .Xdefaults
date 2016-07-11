@@ -1,10 +1,11 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2016 May 13
+! modified : 2016 Jul 05
 !
 
 !-- colorscheme & font --!
-#include ".Xdefaults.d/colors/smokey"
+#include ".Xdefaults.d/colors/gruvbox_urxvt256"
+#include ".Xdefaults.d/colors/gruvbox_dark"
 #include ".Xdefaults.d/fonts/sourcecodepro_noto"
 
 !-- xft --!
@@ -37,10 +38,11 @@ URxvt.intensityStyles: false
 URxvt.fading         : 20
 URxvt.externalBorder : 0
 URxvt.internalBorder : 0
+!URxvt.letterSpace    : -1
 
 !-- urxvt extension --!
 URxvt.perl-lib          : /usr/lib/urxvt/perl/
 URxvt.perl-ext-common   : default,matcher
 URxvt.matcher.button    : 1
 URxvt.matcher.pattern.1 : \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
-URxvt.urlLauncher       : dwb
+URxvt.url-launcher      : firefox

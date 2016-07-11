@@ -1,6 +1,30 @@
+#
+# author   : Xu Xiaodong <xxdlhy@gmail.com>
+# modified : 2016 Jul 04
+#
+
+#-- move to corner --#
+
+# top left
 super + e
-    xdotool mousemove 400 250
-super + d
-    xdotool mousemove 1400 850
+    xdotool mousemove 20 50
+
+# top right
+super + shift + r
+    xdotool mousemove 1895 55
+
+# bottom left
 super + z
-    xdotool mousemove 400 850
+    xdotool mousemove 25 1055
+
+# bottom right
+super + d
+    xdotool mousemove 1895 1055
+
+# top center
+super + shift + t
+    xdotool mousemove 955 55
+
+# bottom center
+super + shift + f
+    xdotool mousemove 955 1055

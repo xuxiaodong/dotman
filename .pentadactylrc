@@ -1,6 +1,6 @@
 "
 " author:    Xu Xiaodong <xxdlhy@gmail.com>
-" modified:  2016 Jun 10
+" modified:  2016 Jun 26
 "
 
 "-- look --"
@@ -8,8 +8,10 @@
 set guioptions=Cns
 set showstatuslinks=command
 set hintkeys=asdfg;lkjh
+set maxitems=15
+set titlestring=
 
-colorscheme solarized-dark
+colorscheme gruvbox-dark
 highlight Hint font-family: 'source code pro'; font-size: 13px; background-color: white; padding: 2px;
 
 "-- search --"

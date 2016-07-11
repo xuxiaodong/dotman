@@ -1,6 +1,6 @@
 #
 # author:   Xu Xiaodong <xxdlhy@gmail.com>
-# modified: 2016 Jun 18
+# modified: 2016 Jul 02
 #
 
 #-- xft --#
@@ -10,15 +10,15 @@ gtk-xft-hintstyle = hintslight
 gtk-xft-rgba      = rgb
 
 #-- gtk --#
-include "/home/xiaodong/.themes/BlackWhite/gtk-2.0/gtkrc"
+include "/home/xiaodong/.themes/Fawn/gtk-2.0/gtkrc"
 
 #-- icon --#
 gtk-icon-theme-name = "Arc"
 
 #-- font --#
-gtk-font-name = "Aller 12"
+gtk-font-name = "Roboto Condensed 12"
 style "user-font" {
-    font_name = "Aller 12"
+    font_name = "Roboto Condensed 12"
 }
 widget_class "*" style "user-font"
 
