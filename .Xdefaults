@@ -1,6 +1,6 @@
 !
 ! author   : Xu Xiaodong <xxdlhy@gmail.com>
-! modified : 2016 Jul 05
+! modified : 2016 Oct 19
 !
 
 !-- colorscheme & font --!
@@ -25,7 +25,7 @@ Xcursor.size  : 10
 
 !-- urxvt base --!
 URxvt.title       : URxvt
-URxvt.geometry    : 64x16
+URxvt.geometry    : 80x20
 URxvt.loginShell  : true
 URxvt.preeditType : Root
 URxvt.saveLines   : 65535
@@ -37,8 +37,8 @@ URxvt.scrollBar      : false
 URxvt.intensityStyles: false
 URxvt.fading         : 20
 URxvt.externalBorder : 0
-URxvt.internalBorder : 0
-!URxvt.letterSpace    : -1
+URxvt.internalBorder : 7
+! URxvt.letterSpace    : -1
 
 !-- urxvt extension --!
 URxvt.perl-lib          : /usr/lib/urxvt/perl/

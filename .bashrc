@@ -1,6 +1,6 @@
 #
 # author   : Xu Xiaodong <xxdlhy@gmail.com>
-# modified : 2016 Jul 09
+# modified : 2016 Oct 20
 #
 
 # prompt
@@ -23,15 +23,18 @@ boCyan="\[\033[1;36m\]"
 liWhite="\[\033[0;37m\]"
 boWhite="\[\033[1;37m\]"
 
-PS1=" $liGreen\w $liYellow─╼ $liWhite"
+PS1=" $liGreen\w
+ $liYellow───╼ $liWhite"
 
 # alias
 if [ "$TERM" != "dumb" ]; then
     alias ls='ls -F --color=auto'
 fi
 
-alias ll='ls -lsh'
+alias l='ls -lsh'
+alias ll='ls -lash'
 alias sd='shutdown -h now'
+alias v='vim'
 
 # completion
 if [ -f /etc/bash_completion ]; then

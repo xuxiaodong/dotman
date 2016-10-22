@@ -202,7 +202,7 @@ c.TerminalInteractiveShell.color_info = True
 # c.TerminalInteractiveShell.show_rewritten_input = True
 
 # Set the color scheme (NoColor, Linux, or LightBG).
-c.TerminalInteractiveShell.colors = 'Linux'
+#c.TerminalInteractiveShell.colors = 'Linux'
 
 # If True, anything that would be passed to the pager will be displayed as
 # regular output instead.
@@ -293,7 +293,7 @@ c.TerminalInteractiveShell.confirm_exit = False
 # c.TerminalInteractiveShell.multiline_history = True
 
 # 
-c.TerminalInteractiveShell.readline_use = True
+#c.TerminalInteractiveShell.readline_use = True
 
 # Enable deep (recursive) reloading by default. IPython can use the deep_reload
 # module which reloads changes in modules recursively (it replaces the reload()
@@ -356,7 +356,7 @@ c.TerminalInteractiveShell.readline_use = True
 # c.PromptManager.in_template = 'In [\\#]: '
 
 # 
-c.PromptManager.color_scheme = 'Linux'
+#c.PromptManager.color_scheme = 'Linux'
 
 #------------------------------------------------------------------------------
 # HistoryManager configuration

@@ -1,6 +1,6 @@
 #
 # author:   Xu Xiaodong <xxdlhy@gmail.com>
-# modified: 2016 Jul 02
+# modified: 2016 Oct 20
 #
 
 #-- xft --#
@@ -13,12 +13,12 @@ gtk-xft-rgba      = rgb
 include "/home/xiaodong/.themes/Fawn/gtk-2.0/gtkrc"
 
 #-- icon --#
-gtk-icon-theme-name = "Arc"
+gtk-icon-theme-name = "Numix"
 
 #-- font --#
-gtk-font-name = "Roboto Condensed 12"
+gtk-font-name = "Roboto Condensed 8"
 style "user-font" {
-    font_name = "Roboto Condensed 12"
+    font_name = "Roboto Condensed 8"
 }
 widget_class "*" style "user-font"
 

@@ -1,0 +1,54 @@
+/*
+ *
+ * author   : Xu Xiaodong <xxdlhy@gmail.com>
+ * modified : 2016 Jul 03
+ *
+ */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+tab {
+    background: #282828 !important;
+    color: #ebdbb2 !important;
+}
+
+#TabsToolbar {
+    background: #282828 !important;
+    font-family: 'source code pro' !important;
+    font-size: 13px !important;
+}
+
+#TabsToolbar toolbarbutton[class^="scrollbutton"] {
+    display: none !important;
+}
+
+#TabsToolbar, #tabbrowser-tabs {
+    margin: 0 -11px !important;
+}
+
+#tabbrowser-tabs ~ #alltabs-button {
+    display: none !important;
+}
+
+#tabbrowser-tabs .tabbrowser-tab {
+    margin: 0 -10px 0 14px !important;
+}
+
+.tabbrowser-tab[fadein]:not([pinned]) {
+    max-width: 100% !important;
+}
+
+.tabbrowser-tab * {
+    background: #282828 !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-stack {
+    background: #282828 !important;
+    color: #d79921 !important;
+    border-radius: 0px !important;
+    position: relative !important;
+}
+
+.tab-icon-image, .tab-close-button {
+    display: none !important;
+}
